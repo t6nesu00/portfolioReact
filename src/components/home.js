@@ -5,6 +5,11 @@ class Home extends Component {
         return(
             <div>
                 <h1>This is my home page.</h1>
+                <br></br>
+                <h1>Hello</h1>
+                <h1>Hello</h1>
+                <h1>Hello</h1>
+                <h1>Hello</h1>
             </div>
         )
     }
