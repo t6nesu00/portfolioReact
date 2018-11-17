@@ -3,6 +3,19 @@ import { Col, Container, Row, Footer } from "mdbreact";
 import './footer.css'
 
 class FooterPage extends Component {
+  constructor() {
+    super()
+    this.state={time: new Date()}
+  }
+
+  currentTime(){
+    this.setState({
+      time: new Date()
+    })
+  }
+  componentWillMount(){
+    setInterval(()=>this.currentTime(), 1000)
+  }
     render() {
         return(
             <Footer color="blue" className="font-small pt-4 mt-4">
@@ -13,6 +26,10 @@ class FooterPage extends Component {
       <p>
           Hello this is my portfolio. I created this using React Js. This footer part is from MDBootstrap.
       </p>
+     
+      <h6>
+      {this.state.time.toLocaleTimeString()}
+      </h6>
       </Col>
       <Col md="12">
               <div className="mb-5 flex-center">
