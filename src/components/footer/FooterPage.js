@@ -28,7 +28,7 @@ class FooterPage extends Component {
       </p>
      
       <h6>
-      {this.state.time.toTimeString()}
+      {this.state.time.toTimeString( )}
       </h6>
       </Col>
       <Col md="12">

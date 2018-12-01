@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+    margin: 0px;
+}
+.myImg {
+    width: 100%;
+    height: auto;
+}
