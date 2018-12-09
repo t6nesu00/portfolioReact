@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0px;
 }
+.container {
+    background: #f4f4f4;
+}
 .row {
     display: flex;
 }
@@ -14,4 +17,15 @@
 .myImg {
     width: 100%;
     height: auto;
+    margin: 0px 0px 0px 5px;
+}
+.intro {
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    padding: 0px 5px 0px 5px;
+}
+
+.intro p {
+    font-size: 20px;
 }

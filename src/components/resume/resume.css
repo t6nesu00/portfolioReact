@@ -1,0 +1,31 @@
+
+.container {
+    background-color: #00ff99;
+}
+img {
+    float: right;
+    margin-right: 5px;
+}
+
+#name {
+    float: left;
+    margin: 0px;
+    margin-top: 40px;
+    text-decoration-line: underline;
+}
+
+
+.top-section {
+    margin-bottom: 5px;
+}
+.content {
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.content h2 {
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
