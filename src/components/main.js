@@ -5,7 +5,7 @@ import Home from './home';
 import About from './About';
 import Projects from './Projects';
 import Resume from './resume/Resume';
-import Contact from './Contact';
+import Contact from './contact/Contact';
 
 
 const Main = () => (
