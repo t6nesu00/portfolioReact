@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.content {
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    background: url("https://images.pexels.com/photos/695644/pexels-photo-695644.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.animated {
+    font-size: 6rem;
+    font-family: 'Charm', cursive;
+    background: url("https://jooinn.com/images/red-diagonal-stripes-3.jpg");
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: moveBg 100s linear infinite;
+    -webkit-animation: moveBg 100s linear infinite;
+}
+
+@keyframes moveBg {
+    0% {
+        background-position: 50% 50%;
+    }
+    
+    100% {
+        background-position: 75% 50%;
+    }
+}

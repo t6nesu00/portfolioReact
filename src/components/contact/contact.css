@@ -1,7 +1,5 @@
 .contact-form {
-   
-    margin-right: 25px;
-    margin-top: 10px;
+    margin-top: 75px;
     
 }
 .contact-card {
@@ -14,4 +12,8 @@
 }
 .img-fluid {
     width: 100%;
+}
+
+.linkface {
+    size: 25px;
 }

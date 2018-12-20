@@ -21,15 +21,18 @@ const Contact = () => {
                             <CardBody>
                                 <CardTitle>Suman Nepali</CardTitle>
                                 <CardText>
-                                    <p>You can contact me at any time.</p>
-                                    <h4>Contact: 000000000</h4>
-                                    <h4>Email: suman.nepali@gmail.com</h4>
+                                    <p>Please feel free to contact me if you have any query about me.</p>
+                                    <h4>Phone: +358-469545662</h4>
+                                    <h4>Email: hlw.zigri@gmail.com</h4>
                                 </CardText>
-                                <Button href="#">Button</Button>
+                                <a href="https://www.facebook.com/dallusuman"><MDBIcon icon="facebook-square" size="3x" /> </a>
+                                <a href="https://www.linkedin.com/in/suman-nepali-9193309a/"><MDBIcon icon="linkedin-square" size="3x" /> </a>
+                                <a href="https://github.com/t6nesu00"><MDBIcon icon="github-alt" size="3x" /> </a>
                             </CardBody>
                             </Card>
                         </div>
                     </div> 
+                    <div className="column">
                     <div className="contact-form">
                         <form>
                         <p className="h5 text-center mb-4">Write to me</p>
@@ -75,6 +78,9 @@ const Contact = () => {
                         </div>
                     </form>
                     </div>
+                    </div>
+
+                    
                             
                 </div>
 
